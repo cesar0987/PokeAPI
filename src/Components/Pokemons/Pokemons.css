@@ -1,0 +1,8 @@
+.pokeList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+}
