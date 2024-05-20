@@ -7,7 +7,7 @@ function App() {
   const [pokemonNames, setPokemonNames] = useState([]);
 
   const fetchPokemon = async () => {
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=808');
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=807');
     const data = await response.json();
     setPokemonNames(data.results.map(pokemon => pokemon.name));
   }
